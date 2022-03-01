@@ -18,7 +18,7 @@ public class TimeResourceAllocator implements Resource
     @Override
     public void markFree(int resourceId)
     {
-         System.out.println("Marking space resource with id " + resourceId + "free\n");
+         System.out.println("Marking time resource with id " + resourceId + "free\n");
 
     }
 }
